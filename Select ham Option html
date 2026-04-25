@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>tapsirma1</title>
+        <style>
+            select{
+                width: 300px;
+                padding: 10px 15px;
+                margin-bottom: 15px;
+                box-sizing: border-box;
+            }
+            select:hover{
+                box-shadow: 5px 5px 7px lightgreen;
+            }
+
+            textarea{
+                width: 300px;
+                padding: 10px;
+                border: 2px solid lightcoral;
+                box-sizing: border-box;
+            }
+        </style>
+    </head>
+    <body>
+        <select>
+            <option>Xizmetti tanlan</option>
+            <option>Shashtarez</option>
+            <option>Salon</option>
+            <option>Decorator</option><br><br>
+        </select>
+        <br>
+        <br>
+        <textarea rows="5" cols="40" placeholder="Jaqsi pikirlerim"></textarea>
+    </body>
+</html>
