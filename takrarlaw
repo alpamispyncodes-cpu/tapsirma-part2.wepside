@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tapsirma</title>
+    <style>
+        .oliver{
+            width: 200px;
+        }
+        .pishiq{
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div>
+            <img src="oliver.png" alt="oliver" class="oliver">
+        </div>
+        <div>
+            <div>
+                <img src="pishik.jpg" alt="pishiq" class="pishiq">
+            </div>
+        </div>
+        <div>
+            <div>
+                <div>
+                    <p>
+                        <b>
+                            OLIVER
+                        </b>
+                    </p>
+                    <p>
+                        <b>
+                            <p>
+                                <b>
+                                    <div>
+                                        <div>
+                                            <p>
+                                                <b>
+                                                    the cat pupolar
+                                                </b>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </b>
+                            </p>
+                        </b>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <form>
+        <label for="text">
+           asdf
+        </label>
+        <input type="text" id="text">
+        <br> <br>
+        <button>JIBERIW</button>
+    </form>
+</body>
+</html>
