@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini YouTube Clone</title>
+    <link rel="stylesheet" href="14.css">
+</head>
+<body>
+
+    <!-- Header qismi -->
+    <header class="header">
+        <div class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube Logo">
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Qidiruv...">
+            <button>🔍</button>
+        </div>
+        <div class="user-icons">👤</div>
+    </header>
+
+    <main>
+        <!-- Sidebar qismi -->
+        <aside class="sidebar">
+            <ul>
+                <li class="active">Asosiy</li>
+                <li>Shorts</li>
+                <li>Obunalar</li>
+                <hr>
+                <li>Kutubxona</li>
+                <li>Tarix</li>
+            </ul>
+        </aside>
+
+        <!-- Video Grid -->
+        <section class="video-grid">
+            <!-- 1-video (namuna) -->
+            <div class="video-card">
+                <div class="thumbnail">
+                    <img src="https://via.placeholder.com/300x180" alt="Video">
+                </div>
+                <div class="video-info">
+                    <div class="channel-img"></div>
+                    <div class="text">
+                        <h4>Dasturlashni o'rganish - 1-dars</h4>
+                        <p>Web Academy • 120 ming ko'rilgan</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Takrorlanuvchi kartalar -->
+            <div class="video-card">
+                <div class="thumbnail"><img src="https://via.placeholder.com/300x180" alt="Video"></div>
+                <div class="video-info">
+                    <div class="channel-img"></div>
+                    <div class="text">
+                        <h4>CSS sirlari va maslahatlar</h4>
+                        <p>Code Master • 45 ming ko'rilgan</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-card">
+                <div class="thumbnail"><img src="https://via.placeholder.com/300x180" alt="Video"></div>
+                <div class="video-info">
+                    <div class="channel-img"></div>
+                    <div class="text">
+                        <h4>Dunyo bo'ylab sayohat</h4>
+                        <p>Traveler • 1 mln ko'rilgan</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-card">
+                <div class="thumbnail"><img src="https://via.placeholder.com/300x180" alt="Video"></div>
+                <div class="video-info">
+                    <div class="channel-img"></div>
+                    <div class="text">
+                        <h4>JavaScript asoslari 2026</h4>
+                        <p>JS Guru • 80 ming ko'rilgan</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
