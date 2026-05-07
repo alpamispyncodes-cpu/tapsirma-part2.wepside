@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tapsirma</title>
+    <style>
+        img{
+            border-radius: 360px;
+            display: inline-block;
+        }
+        .cat{
+            display: inline-block;
+            padding: 0px 0px;
+            margin: 0px;
+        }
+        button{
+
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div>
+            <img src="pishik.jpg" alt="pishik1">
+        </div>
+        <div class="cat">
+            <div>
+                <p>
+                    <b>
+                        OLIVER  
+                    </b>
+                </p>
+            </div>
+            <div class="cat">
+                <p>
+                    the car popular
+                </p>
+            </div>
+        </div>
+        <div>
+            <button>
+                FOLLOW
+            </button>
+        </div>
+    </div>
+</body>
+</html>
