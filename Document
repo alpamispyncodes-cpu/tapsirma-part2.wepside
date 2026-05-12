@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 200px;
+            border: 1px solid black;
+        }
+        img{
+            width: 200px;
+        }
+        .name{
+            font-size: 20px;
+            font-family: arial; 
+            font-weight: 700; 
+            margin: 0;
+            margin-bottom: 0;      
+        }
+        .photo{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            vertical-align: middle;
+        }
+        .dos{
+            color: gray;
+            font-family: Arial;
+            display: inline-block;
+            margin: 0;
+            margin-bottom: 0;
+            vertical-align: middle;
+        }
+        button{
+            background-color: blue;
+            color: white;
+            border: none;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="box">
+            <img src="thumbnail-1.webp" alt="thumbnail">
+        </div>
+        <div>
+            <div>
+                <p class="name">
+                    Oliver
+                </p>
+            </div>
+            <div>
+                <img src="channel-1.jpg" alt="channel" class="photo">
+                <p class="dos">
+                    2 muntual friends
+                </p>
+            </div>
+            <div>
+                <button>
+                    Add Friend
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
