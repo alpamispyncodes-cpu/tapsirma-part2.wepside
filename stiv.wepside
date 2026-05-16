@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tapsirma</title>
+    <style>
+        .stiv{
+            box-sizing: border-box;
+            background-color: cyan;
+            width: 275px;
+        }
+        .oliver{
+            padding: 2px 2px;
+            box-sizing: border-box;
+        }
+        button{
+           background-color: blue;
+           color: white;
+           border: none;
+           border-radius: 3px; 
+        }
+    </style>
+</head>
+<body>
+    <div class="stiv">
+        <div>
+            <img src="pishiq1.jpg" alt="pishiq2">
+        </div>
+        <div>
+            <div>
+                <p class="oliver">
+                    <b>
+                        Oliver
+                    </b>
+                </p>
+            </div>
+            <div>
+                <p class="oliver">
+                    2 muntal frends
+                </p>
+            </div>
+            <div>
+                <button>
+                    Follow
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
