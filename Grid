@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tapsirma</title>
+    <style>
+        .box{
+            display: grid;
+            grid-template-columns: 200px 1fr 10fr;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div style="background-color: aquamarine;">1fr</div>
+        <div style="background-color: aqua;">200px</div>
+        <div style="background-color: cadetblue;">10fr</div>
+    </div>
+</body>
+</html>
