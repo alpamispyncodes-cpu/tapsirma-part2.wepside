@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tapsirma</title>
+    <style>
+        .box{
+            display: grid;
+            grid-template-columns: 50px 75px 200px 234px;
+            gap: 10px 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div style="background-color: lightgreen;">1 box</div>
+        <div style="background-color: lightsalmon;">2 box</div>
+        <div style="background-color: lightseagreen;">3 box</div>
+        <div style="background-color: lightpink;">4 box</div>
+    </div>
+</body>
+</html>
