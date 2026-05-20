@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Tapsirma</title>
+    <style>
+        .flex-box{
+            display: flex;
+            flex-direction: row;
+
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .flex-box1{
+            display: flex;
+            flex-direction: row;
+
+            align-items: center;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-box">
+        <div style="background-color: aqua;">box 1</div>
+        <div style="background-color: aquamarine;">box 2</div>
+        <div style="background-color: blanchedalmond;">box 3</div>
+    </div>
+    
+    <br> <br>
+
+    <div class="flex-box1">
+        <div style="background-color: aqua;">box 1</div>
+        <div style="background-color: aquamarine;">box 2</div>
+    </div>
+</body>
+</html>
