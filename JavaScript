@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScrip</title>
+</head>
+<body>
+    <h1>JavaScrip</h1>
+
+    <script>
+        console.log("Salem Taxtakopir")
+        console.log("Men", 15, "jastaman")
+        console.log(29+24)
+        console.log("42")
+        console.log("Biyil", 2026, "jil")
+        console.log("Men HTML ham CSS uyrenip atirman")
+        console.log("14 kg qulpinay bahasi:", 35000, "sum", 14 * 35000, "sum")
+    </script>  
+
+</body>
+</html>
