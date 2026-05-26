@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <script>
+        let miywe = "Qulpinay"
+        let baha = 30000
+        let kg = 100
+        let uluwma_baha = baha * kg
+
+        console.log("Men bazardan", miywe, "aliwim", "kerek.")
+        console.log("1kg", "sumasi", baha, "som", "eken.")
+        console.log(kg, "umuwma", "bahasi", uluwma_baha, "sum", "boldi")
+    </script>
+</body>
+</html>
