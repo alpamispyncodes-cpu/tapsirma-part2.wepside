@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <style>
+        table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+                <th>N</th>
+                <th>Meywe</th>
+                <th>Bahasi</th>
+                <th>KG</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Alma</td>
+            <td>5000</td>
+            <td>18</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Banan</td>
+            <td>17000</td>
+            <td>7</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Juzim</td>
+            <td>9000</td>
+            <td>4</td>
+        </tr>
+    </table>  
+</body>
+</html>
