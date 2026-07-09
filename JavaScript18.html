@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <script>
+        function qosuw(a, b){
+            console.log(`${a} + ${b} = ${a + b}`)
+        } 
+        function aliw(a, b){
+            console.log(`${a} - ${b} = ${a - b}`)
+        }
+        function kobeytiw(a, b){
+            console.log(`${a} * ${b} = ${a * b}`)
+        }
+        let a = Number("Birinshi sandi kiritin")
+        let b = Number("Ekinshi sandi kiritin")
+        let operator = prompt("Birewin tanlan(+, -, *)")
+
+        if (operator === "*"){
+            kobeytiw(a, b)
+        }
+        if (operator === "+"){
+            qosuw(a, b)
+        } else if (operator === "-", "+", "*"){
+            aliw(a, b)
+        }
+    </script>
+</body>
+</html>
